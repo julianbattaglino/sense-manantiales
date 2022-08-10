@@ -397,7 +397,7 @@ body.fixed:not(.absolute) {
     .header .navigation .menu li.active a,
     .header .navigation .menu li a:hover {
         background: #000;
-        color: #C9BEB6;
+        color: #00AFCB !important
     }
 
     .header .navigation .socialmedia {
@@ -492,7 +492,15 @@ img.grid-item:hover {
 }
 
 /* Section plantas-planos */
-
+.section-plantas {
+    padding: 100px 0;
+}
+div.col-plano {
+    margin: 50px 0;
+}
+.plantas-img {
+    max-width: 100%;
+}
 h2.plantas {
     color: #000000;
     font-family: "Adam Light", Sans-serif;
@@ -706,7 +714,6 @@ img.arrow-top {
     }
 }
 
-
 @media (max-width: 767px) {
     video.video-intro {
         height: 25vh   !important;
@@ -740,6 +747,13 @@ img.arrow-top {
     }    
 
 }
+
+@media (max-width: 1200px) {
+    .header.fixed {
+        background: rgba(255, 255, 255, 1);
+    }
+}
+
 
 @media (min-width: 1024px) and (max-width: 1400px) {
     video.video-intro {
